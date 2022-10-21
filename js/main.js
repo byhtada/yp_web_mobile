@@ -86,8 +86,8 @@ $( document ).ready(function() {
 
         doc.querySelector('.top_header').innerText = page.replace("_", " ")
 
-        // last_page = $(this).attr("data-page");
-        // showMainPage(last_page);
+        //  last_page = $(this).attr("data-page");
+        // showMainPage(last_page); fsd
         // window.history.pushState(last_page, "another page", "#" + last_page);
     }
 
