@@ -60,6 +60,21 @@ $( document ).ready(function() {
 
     }
 
+    Array.from(doc.getElementsByClassName("order_info_main")).forEach(function(element) {
+        element.addEventListener('click', clickOrderInfo);
+    });
+    function clickOrderInfo(){
+        let display   = 'none'
+
+        if (this.parentElement.querySelector('.order_info_secondary').style.display == 'none') {
+            display   = 'block'
+
+        }
+        this.parentElement.querySelector('.order_info_secondary').style.display = display
+
+
+    }
+
 
 
     Array.from(doc.getElementsByClassName("nav_bottom")).forEach(function(element) {

@@ -344,6 +344,7 @@ div.nav_bottom span.nav_bottom-img {
 
 
 .order_info_secondary {
+    display: none;
     border-top: 1px solid #3e4344;
     margin-top: 10px;
     padding-top: 10px;

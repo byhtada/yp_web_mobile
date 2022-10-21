@@ -67,10 +67,10 @@
 
 
     <div class="wrapper_pages">
-        <div data-page="desktop" class="page ">
+        <div data-page="desktop" class="page visible">
             desktop
         </div>
-        <div data-page="orders" class="page visible">
+        <div data-page="orders" class="page ">
             <div class="vertical_tab_wrapper">
                 <div data-page="orders_create" class="tab_item ">CREATE</div>
                 <div data-page="orders_manage" class="tab_item active">MANAGE</div>
@@ -161,6 +161,12 @@
                             </div>
 
 
+
+
+                        </div>
+
+                        <div class="order_item">
+
                             <div class="order_info_main">
                                 <div class="status_indicator status color-4"></div>
                                 <div class="order_info_left">
@@ -184,8 +190,6 @@
 
                                 </div>
                             </div>
-
-
                         </div>
                     </div>
                 </div>
@@ -289,8 +293,136 @@
 
                                     <div class="product_item total">
                                         <div class="product_name">DUE</div>
+                                        <div class="product_cost">59 000$</div>
+                                        <div class="product_quantity">6 000 kg</div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+                <div data-order-stage="en_route" class="orders_container">
+                    <div class="orders_header">
+                        <div class="orders_header_left">
+                            En route
+                        </div>
+                        <div class="orders_header_right">
+                            <div class="counter">1</div>
+                            <img class="opening_arrow" src="img/nav/arrow_open.svg" />
+                        </div>
+                    </div>
+
+                    <div class="orders_list">
+                        <div class="order_item">
+
+                            <div class="order_info_main">
+                                <div class="status_indicator status color-7"></div>
+                                <div class="order_info_left">
+                                    <div class="main_info">
+                                        <img class="flag" src="img/flags/ua.svg" />
+                                        <div class="order_title">Optima Union. Invoice #3</div>
+                                    </div>
+                                    <div class="secondary_info">
+                                        CPT. Poland. Warsaw
+                                    </div>
+
+                                </div>
+
+                                <div class="order_info_right">
+                                    <div class="main_info">
+                                        <div class="order_title">10.12.2022</div>
+                                    </div>
+                                    <div class="secondary_info">
+                                        10.10.2022
+                                    </div>
+
+                                </div>
+                            </div>
+
+
+                            <div class="order_info_secondary">
+                                <div class="delivery_products_list">
+                                    <div class="product_item">
+                                        <div class="product_name">APA102</div>
+                                        <div class="product_cost">10.00$</div>
+                                        <div class="product_quantity">5 000 kg</div>
+                                    </div>
+                                    <div class="product_item">
+                                        <div class="product_name">APC103</div>
                                         <div class="product_cost">9.00$</div>
                                         <div class="product_quantity">1 000 kg</div>
+                                    </div>
+
+                                    <div class="product_item total">
+                                        <div class="product_name">DUE</div>
+                                        <div class="product_cost">59 000$</div>
+                                        <div class="product_quantity">6 000 kg</div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+                <div data-order-stage="unpaid" class="orders_container">
+                    <div class="orders_header">
+                        <div class="orders_header_left">
+                            Unpaid
+                        </div>
+                        <div class="orders_header_right">
+                            <div class="counter">1</div>
+                            <img class="opening_arrow" src="img/nav/arrow_open.svg" />
+                        </div>
+                    </div>
+
+                    <div class="orders_list">
+                        <div class="order_item">
+
+                            <div class="order_info_main">
+                                <div class="status_indicator status color-9"></div>
+                                <div class="order_info_left">
+                                    <div class="main_info">
+                                        <img class="flag" src="img/flags/ua.svg" />
+                                        <div class="order_title">Optima Union. Invoice #5</div>
+                                    </div>
+                                    <div class="secondary_info">
+                                        CPT. Poland. Warsaw
+                                    </div>
+
+                                </div>
+
+                                <div class="order_info_right">
+                                    <div class="main_info">
+                                        <div class="order_title">10.12.2022</div>
+                                    </div>
+                                    <div class="secondary_info">
+                                        10.10.2022
+                                    </div>
+
+                                </div>
+                            </div>
+
+
+                            <div class="order_info_secondary">
+                                <div class="delivery_products_list">
+                                    <div class="product_item">
+                                        <div class="product_name">APA102</div>
+                                        <div class="product_cost">10.00$</div>
+                                        <div class="product_quantity">5 000 kg</div>
+                                    </div>
+                                    <div class="product_item">
+                                        <div class="product_name">APC103</div>
+                                        <div class="product_cost">9.00$</div>
+                                        <div class="product_quantity">1 000 kg</div>
+                                    </div>
+
+                                    <div class="product_item total">
+                                        <div class="product_name">DUE</div>
+                                        <div class="product_cost">59 000$</div>
+                                        <div class="product_quantity">6 000 kg</div>
                                     </div>
                                 </div>
                             </div>
@@ -314,11 +446,11 @@
 
 
     <div class="bottom_bar">
-        <div class="nav_bottom " data-page="desktop">
+        <div class="nav_bottom active" data-page="desktop">
             <img class="icon_bottom_navigation" src="./img/nav/active/desktop.svg" alt="">
             <div class="nav_bottom_text">DESKTOP</div>
         </div>
-        <div class="nav_bottom active" data-page="orders">
+        <div class="nav_bottom " data-page="orders">
             <img class="icon_bottom_navigation" src="./img/nav/no_active/orders.svg" alt="">
             <div class="nav_bottom_text">ORDERS</div>
         </div>
